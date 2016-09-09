@@ -18,7 +18,7 @@ module.exports = {
       loader: 'vue'
     }, {
       test: /\.js$/,
-      loader: 'babel',
+      loader: 'babel-loader',
       exclude: /node_modules/
     }].concat(coreLoaders)
   },
